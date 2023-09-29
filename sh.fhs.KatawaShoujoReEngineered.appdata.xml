@@ -31,7 +31,11 @@
     <url type="faq">https://www.fhs.sh/about</url>
     <launchable type="desktop-id">sh.fhs.KatawaShoujoReEngineered.desktop</launchable>
     <releases>
-        <release version="1.3.0-1" date="2023-09-29"/>
+        <release version="1.3.0-1" date="2023-09-29">
+                <description>
+                  Added espeak as dependency. Self-voicing in game maybe will work now.
+                </description>
+        </release>
         <release version="1.3.0" date="2023-07-03">
             <description>
                 <p>Katawa Shoujo: Re-Engineered 1.3.0 contains many bugfixes since the previous release.</p>
