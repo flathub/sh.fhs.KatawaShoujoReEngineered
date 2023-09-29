@@ -40,6 +40,31 @@ modules:
         url: https://github.com/renpy/pygame_sdl2.git
         tag: renpy-8.1.0.23050902
 
+  - name: mbrola
+    buildsystem: simple
+    build-commands:
+      - make
+      - "cp Bin/mbrola /app/bin"
+    sources:
+      - type: archive
+        url: https://github.com/numediart/MBROLA/archive/refs/tags/3.3.tar.gz
+        sha256: c01ded2c0a05667e6df2439c1c02b011a5df2bfdf49e24a524630686aea2b558
+
+  - name: espeak
+    buildsystem: autotools
+    cleanup:
+      - "*.la"
+    sources:
+      - type: git
+        url: https://github.com/espeak-ng/espeak-ng.git
+        tag: 1.51.1
+        x-checker-data:
+          type: git
+          tag-pattern: ^([\d.]+)$
+    post-install:
+      - ln -s /app/lib/libespeak-ng.so /app/lib/libespeak.so
+      - ln -s /app/lib/libespeak-ng.a /app/lib/libespeak.a
+
   - name: renpy
     buildsystem: simple
     build-options:
