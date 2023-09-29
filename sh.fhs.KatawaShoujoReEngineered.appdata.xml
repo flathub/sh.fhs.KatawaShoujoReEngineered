@@ -42,22 +42,28 @@
     <developer_name>Fleeting Heartbeat Studios</developer_name>
     <screenshots>
         <screenshot>
-            <image type="source">https://dl.katawa-shoujo.com/pr/sample/screen/screen_1.jpg</image>
+            <image type="source">https://www.fhs.sh/ss/1.png</image>
         </screenshot>
         <screenshot>
-            <image type="source">https://dl.katawa-shoujo.com/pr/sample/screen/screen_2.jpg</image>
+            <image type="source">https://www.fhs.sh/ss/2.png</image>
         </screenshot>
         <screenshot>
-            <image type="source">https://dl.katawa-shoujo.com/pr/sample/screen/screen_3.jpg</image>
-        </screenshot>
-        <screenshot type="default">
-            <image type="source">https://dl.katawa-shoujo.com/pr/sample/screen/screen_4.jpg</image>
+            <image type="source">https://www.fhs.sh/ss/3.png</image>
         </screenshot>
         <screenshot>
-            <image type="source">https://dl.katawa-shoujo.com/pr/sample/screen/screen_5.jpg</image>
+            <image type="source">https://www.fhs.sh/ss/4.png</image>
         </screenshot>
         <screenshot>
-            <image type="source">https://dl.katawa-shoujo.com/pr/sample/screen/screen_6.jpg</image>
+            <image type="source">https://www.fhs.sh/ss/5.png</image>
+        </screenshot>
+        <screenshot>
+            <image type="source">https://www.fhs.sh/ss/6.png</image>
+        </screenshot>
+        <screenshot>
+            <image type="source">https://www.fhs.sh/ss/7.png</image>
+        </screenshot>
+        <screenshot>
+            <image type="source">https://www.fhs.sh/ss/8.png</image>
         </screenshot>
     </screenshots>
     <update_contact>vladimir@hodakov.me</update_contact>
