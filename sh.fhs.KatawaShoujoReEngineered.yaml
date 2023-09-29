@@ -1,13 +1,13 @@
 app-id: sh.fhs.KatawaShoujoReEngineered
 runtime: org.freedesktop.Platform
-runtime-version: "23.08"
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
-command: "ksre"
+command: ksre
 add-extensions:
   org.freedesktop.Platform.ffmpeg-full:
     directory: lib/ffmpeg
-    add-ld-path: "."
-    version: "23.08"
+    add-ld-path: .
+    version: '23.08'
     autodelete: false
 finish-args:
   - --share=ipc
@@ -17,7 +17,7 @@ finish-args:
   - --persist=.renpy
   - --filesystem=xdg-run/discord-ipc-0
 cleanup:
-  - '/include'
+  - /include
 modules:
   - python3-modules.yaml
   - name: pygame_sdl2
@@ -26,11 +26,11 @@ modules:
       arch:
         aarch64:
           env:
-            RENPY_DEPS_INSTALL: "/app::/usr::/lib::/lib64::/lib/aarch64-linux-gnu"
+            RENPY_DEPS_INSTALL: /app::/usr::/lib::/lib64::/lib/aarch64-linux-gnu
             CFLAGS: -fcommon
         x86_64:
           env:
-            RENPY_DEPS_INSTALL: "/app::/usr::/lib::/lib64::/lib/x86_64-linux-gnu"
+            RENPY_DEPS_INSTALL: /app::/usr::/lib::/lib64::/lib/x86_64-linux-gnu
             CFLAGS: -fcommon
     build-commands:
       - python setup.py install --root="/" --prefix="${FLATPAK_DEST}" --optimize=1
@@ -46,11 +46,11 @@ modules:
       arch:
         aarch64:
           env:
-            RENPY_DEPS_INSTALL: "/app::/usr::/lib::/lib64::/lib/aarch64-linux-gnu"
+            RENPY_DEPS_INSTALL: /app::/usr::/lib::/lib64::/lib/aarch64-linux-gnu
             CFLAGS: -fcommon
         x86_64:
           env:
-            RENPY_DEPS_INSTALL: "/app::/usr::/lib::/lib64::/lib/x86_64-linux-gnu"
+            RENPY_DEPS_INSTALL: /app::/usr::/lib::/lib64::/lib/x86_64-linux-gnu
             CFLAGS: -fcommon
     build-commands:
       - python module/setup.py build
@@ -85,6 +85,7 @@ modules:
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
+        commit: bc3531286cbd0b17090a36e10edc7651666aa533
       - type: script
         dest-filename: launcher.sh
         commands:
