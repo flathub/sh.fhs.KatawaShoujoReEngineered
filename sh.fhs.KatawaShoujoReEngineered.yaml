@@ -44,7 +44,7 @@ modules:
     buildsystem: simple
     build-commands:
       - make
-      - "cp Bin/mbrola /app/bin"
+      - cp Bin/mbrola /app/bin
     sources:
       - type: archive
         url: https://github.com/numediart/MBROLA/archive/refs/tags/3.3.tar.gz
@@ -53,7 +53,7 @@ modules:
   - name: espeak
     buildsystem: autotools
     cleanup:
-      - "*.la"
+      - '*.la'
     sources:
       - type: git
         url: https://github.com/espeak-ng/espeak-ng.git
@@ -61,6 +61,7 @@ modules:
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
+        commit: 34762a2b9621d3643e67a00642984c21f0626bdc
     post-install:
       - ln -s /app/lib/libespeak-ng.so /app/lib/libespeak.so
       - ln -s /app/lib/libespeak-ng.a /app/lib/libespeak.a
