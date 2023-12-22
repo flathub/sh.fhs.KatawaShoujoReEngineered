@@ -31,10 +31,25 @@
     <url type="faq">https://www.fhs.sh/about</url>
     <launchable type="desktop-id">sh.fhs.KatawaShoujoReEngineered.desktop</launchable>
     <releases>
+        <release version="1.4.0" date="2023-12-22">
+            <description>
+                <ul>
+                    <li>Added Wayland support in Flathub build</li>
+                    <li>Updated content rating attributes to better match in-game contents.</li>
+                    <li>Added Spanish localization.</li>
+                    <li>Added colorblind filters in Accessibility options.</li>
+                    <li>Added basic modding framework.</li>
+                    <li>Fixed skip of "Support" scene in Act 1 Saturday.</li>
+                    <li>Updated Client ID in Discord RPC</li>
+                    <li>Re-encoded in-game videos in AV1 Matroska</li>
+                </ul>
+            </description>
+            <url>https://codeberg.org/fhs/katawa-shoujo-re-engineered/releases/tag/v1.4.0</url>
+        </release>
         <release version="1.3.0-1" date="2023-09-29">
-                <description>
-                  Added espeak as dependency. Self-voicing in game maybe will work now.
-                </description>
+            <description>
+                Added espeak as dependency. Self-voicing in game maybe will work now.
+            </description>
         </release>
         <release version="1.3.0" date="2023-07-03">
             <description>
@@ -73,15 +88,13 @@
     </screenshots>
     <update_contact>vladimir@hodakov.me</update_contact>
     <content_rating type="oars-1.1">
-        <content_attribute id="violence-realistic">mild</content_attribute>
-        <content_attribute id="violence-bloodshed">moderate</content_attribute>
         <content_attribute id="violence-sexual">intense</content_attribute>
         <content_attribute id="drugs-alcohol">moderate</content_attribute>
         <content_attribute id="drugs-tobacco">moderate</content_attribute>
         <content_attribute id="sex-nudity">intense</content_attribute>
         <content_attribute id="sex-themes">intense</content_attribute>
         <content_attribute id="sex-appearance">intense</content_attribute>
-        <content_attribute id="language-profanity">intense</content_attribute>
-        <content_attribute id="language-humor">intense</content_attribute>
+        <content_attribute id="language-profanity">moderate</content_attribute>
+        <content_attribute id="language-humor">moderate</content_attribute>
     </content_rating>
 </component>
