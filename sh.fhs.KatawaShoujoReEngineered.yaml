@@ -107,11 +107,11 @@ modules:
     sources:
       - type: git
         url: https://codeberg.org/fhs/katawa-shoujo-re-engineered.git
-        tag: v1.3.0
+        tag: v1.4.0
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
-        commit: bc3531286cbd0b17090a36e10edc7651666aa533
+        commit: 34d93c1bce75ae1232ec79dc7950b42026dddefe
       - type: script
         dest-filename: launcher.sh
         commands:
