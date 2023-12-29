@@ -31,6 +31,15 @@
     <url type="faq">https://www.fhs.sh/about</url>
     <launchable type="desktop-id">sh.fhs.KatawaShoujoReEngineered.desktop</launchable>
     <releases>
+        <release version="1.4.1" date="2023-12-29">
+            <description>
+                <ul>
+                    <li>Re-encoded in-game videos (again) to fix issues on mobile devices.</li>
+                    <li>Fixed issue with scene name while playing.</li>
+                </ul>
+            </description>
+            <url>https://codeberg.org/fhs/katawa-shoujo-re-engineered/releases/tag/v1.4.1</url>
+        </release>
         <release version="1.4.0" date="2023-12-22">
             <description>
                 <ul>
