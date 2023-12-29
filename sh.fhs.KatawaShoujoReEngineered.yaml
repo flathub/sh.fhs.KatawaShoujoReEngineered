@@ -19,7 +19,7 @@ finish-args:
   - --persist=.renpy
   - --filesystem=xdg-run/discord-ipc-0
   # controllers support
-  - --socket=session-bus
+  # you may want to add dbus access via flatseal
   - --device=input
 cleanup:
   - /include
