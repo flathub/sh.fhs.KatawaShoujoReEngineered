@@ -36,7 +36,6 @@
                 <ul>
                     <li>Re-encoded in-game videos (again) to fix issues on mobile devices.</li>
                     <li>Fixed issue with scene name while playing.</li>
-                    <li>Added Flatpak permissions for experimental controllers support on Steam Deck.</li>
                 </ul>
             </description>
             <url>https://codeberg.org/fhs/katawa-shoujo-re-engineered/releases/tag/v1.4.1</url>

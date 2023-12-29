@@ -18,9 +18,6 @@ finish-args:
   - --socket=pulseaudio
   - --persist=.renpy
   - --filesystem=xdg-run/discord-ipc-0
-  # controllers support
-  # you may want to add dbus access via flatseal
-  - --device=input
 cleanup:
   - /include
 modules:
