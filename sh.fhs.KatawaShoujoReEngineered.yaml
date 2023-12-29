@@ -20,7 +20,6 @@ finish-args:
   - --filesystem=xdg-run/discord-ipc-0
   # controllers support
   - --socket=session-bus
-  - --socket=system-bus
   - --device=input
 cleanup:
   - /include
