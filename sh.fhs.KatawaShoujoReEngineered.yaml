@@ -18,6 +18,10 @@ finish-args:
   - --socket=pulseaudio
   - --persist=.renpy
   - --filesystem=xdg-run/discord-ipc-0
+  # controllers support
+  - --socket=session-bus
+  - --socket=system-bus
+  - --device=input
 cleanup:
   - /include
 modules:
@@ -109,7 +113,7 @@ modules:
     sources:
       - type: git
         url: https://codeberg.org/fhs/katawa-shoujo-re-engineered.git
-        tag: v1.4.0
+        tag: v1.4.1
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
