@@ -31,6 +31,14 @@
     <url type="faq">https://www.fhs.sh/about</url>
     <launchable type="desktop-id">sh.fhs.KatawaShoujoReEngineered.desktop</launchable>
     <releases>
+        <release version="1.4.1-1" date="2024-01-09">
+            <description>
+                <ul>
+                    <li>Controller support now works out of the box (no more Flatseal shenanigans). Tested on Steam Deck.</li>
+                </ul>
+            </description>
+            <url>https://codeberg.org/fhs/katawa-shoujo-re-engineered/releases/tag/v1.4.1</url>
+        </release>
         <release version="1.4.1" date="2023-12-29">
             <description>
                 <ul>
