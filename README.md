@@ -32,11 +32,3 @@ KS:RE comes preloaded with Russian, French and Spanish translations, ready to us
 official translation won’t be far behind. The simplified codebase of KS:RE makes creating new translations easier than ever,
 requiring virtually zero programming knowledge. We’re more than willing to port over any finished translation you create and
 add it to KS:RE- credited to you, of course.
-
-## Note on controllers support (Steam Deck)
-
-The game itself have some basic controller support, which I've not tested yet.
-
-I've tried to make it work out of the box, but flathub don't allow builds with such a permissions to be published. You
-may want to enable access to dbus and input devices for KS:RE using tool like Flatseal. You may report your experince
-with controllers in issues section of this repo.
