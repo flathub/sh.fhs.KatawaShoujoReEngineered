@@ -31,6 +31,14 @@
     <url type="faq">https://www.fhs.sh/about</url>
     <launchable type="desktop-id">sh.fhs.KatawaShoujoReEngineered.desktop</launchable>
     <releases>
+        <release version="1.4.2" date="2024-01-10">
+            <description>
+                <ul>
+                    <li>Fixed missing Shizune Act 2 intro video.</li>
+                </ul>
+            </description>
+            <url>https://codeberg.org/fhs/katawa-shoujo-re-engineered/releases/tag/v1.4.2</url>
+        </release>
         <release version="1.4.1-1" date="2024-01-09">
             <description>
                 <ul>
