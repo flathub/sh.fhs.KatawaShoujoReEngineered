@@ -98,7 +98,7 @@
     <project_license>MPL-2.0</project_license>
     <developer_name>Fleeting Heartbeat Studios</developer_name>
     <screenshots>
-        <screenshot>
+        <screenshot type="default">
             <image type="source">https://www.fhs.sh/ss/1.png</image>
         </screenshot>
         <screenshot>
