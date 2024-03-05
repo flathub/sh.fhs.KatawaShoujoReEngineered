@@ -19,7 +19,7 @@
         <p>
             This is fanmade modernized version of classic visual novel. It is ported by Fleeting Heartbeat Studios to
             Ren'Py 8, open sourced and de-obfuscated. It contains accessibility features, unavailable at the time of
-            initial game release, Russian and French localization out of the box, has useful function to enrich
+            initial game release, Russian, French and Spanish localization out of the box, has useful function to enrich
             gaming experience.
         </p>
     </description>
@@ -31,6 +31,18 @@
     <url type="faq">https://www.fhs.sh/about</url>
     <launchable type="desktop-id">sh.fhs.KatawaShoujoReEngineered.desktop</launchable>
     <releases>
+        <release version="1.4.3" date="2024-03-04">
+            <description>
+                <ul>
+                    <li>Added progress indicators on choice buttons.</li>
+                    <li>Doublespeak and written notes don't interrupt autoskip anymore.</li>
+                    <li>SnowBlossom adjusted.</li>
+                    <li>Fixed route algorhitm in Act 1 Saturday.</li>
+                    <li>Fixed missing image in Emi lemon-flavored scene.</li>
+                </ul>
+            </description>
+            <url>https://codeberg.org/fhs/katawa-shoujo-re-engineered/releases/tag/v1.4.3</url>
+        </release>
         <release version="1.4.2" date="2024-01-10">
             <description>
                 <ul>
@@ -86,7 +98,7 @@
     <project_license>MPL-2.0</project_license>
     <developer_name>Fleeting Heartbeat Studios</developer_name>
     <screenshots>
-        <screenshot>
+        <screenshot type="default">
             <image type="source">https://www.fhs.sh/ss/1.png</image>
         </screenshot>
         <screenshot>
