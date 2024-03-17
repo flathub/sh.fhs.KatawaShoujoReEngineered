@@ -31,6 +31,15 @@
     <url type="faq">https://www.fhs.sh/about</url>
     <launchable type="desktop-id">sh.fhs.KatawaShoujoReEngineered.desktop</launchable>
     <releases>
+        <release version="1.4.4" date="2024-03-17">
+            <description>
+                <ul>
+                    <li>Another attempt at re-encoding videos to make it accessible on every supported platform.</li>
+                    <li>Fixed music playing in pXt mod.</li>
+                </ul>
+            </description>
+            <url>https://codeberg.org/fhs/katawa-shoujo-re-engineered/releases/tag/v1.4.4</url>
+        </release>
         <release version="1.4.3" date="2024-03-04">
             <description>
                 <ul>
