@@ -31,6 +31,14 @@
     <url type="faq">https://www.fhs.sh/about</url>
     <launchable type="desktop-id">sh.fhs.KatawaShoujoReEngineered.desktop</launchable>
     <releases>
+        <release version="1.4.6" date="2024-04-06">
+            <description>
+                <ul>
+                    <li>Fixed missing strings in Russian and French translation.</li>
+                </ul>
+            </description>
+            <url>https://codeberg.org/fhs/katawa-shoujo-re-engineered/releases/tag/v1.4.6</url>
+        </release>
         <release version="1.4.5" date="2024-03-24">
             <description>
                 <ul>
