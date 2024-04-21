@@ -31,6 +31,14 @@
     <url type="faq">https://www.fhs.sh/about</url>
     <launchable type="desktop-id">sh.fhs.KatawaShoujoReEngineered.desktop</launchable>
     <releases>
+        <release version="1.4.7" date="2024-04-21">
+            <description>
+                <ul>
+                    <li>Fixed Emi not falling from the wheelchair in the Storage Space scene.</li>
+                </ul>
+            </description>
+            <url>https://codeberg.org/fhs/katawa-shoujo-re-engineered/releases/tag/v1.4.7</url>
+        </release>
         <release version="1.4.6" date="2024-04-06">
             <description>
                 <ul>
