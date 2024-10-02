@@ -11,7 +11,6 @@ add-extensions:
     autodelete: false
 finish-args:
   - --share=ipc
-  - --socket=x11
   - --socket=fallback-x11
   - --socket=wayland
   - --device=all
@@ -40,7 +39,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/renpy/pygame_sdl2.git
-        tag: renpy-8.1.0.23050902
+        tag: renpy-8.3.1.24090601
 
   - name: mbrola
     buildsystem: simple
@@ -88,8 +87,8 @@ modules:
       - install -Dm755 renpy.sh "${FLATPAK_DEST}/bin/renpy"
     sources:
       - type: archive
-        url: https://www.renpy.org/dl/8.1.3/renpy-8.1.3-source.tar.bz2
-        sha256: e207b080acc6721eb51bdbb5f1021d18bb0b8bfb79116cf683dd9fdb5bf9cebc
+        url: https://www.renpy.org/dl/8.3.2/renpy-8.3.2-source.tar.bz2
+        sha256: 4a9677b988d7bfcf9f028c1044accff6b00effe8ec2105814dab04ff473db80b
       - type: script
         commands:
           - python /app/share/renpy/renpy.py "$@"
@@ -109,7 +108,7 @@ modules:
     sources:
       - type: git
         url: https://codeberg.org/fhs/katawa-shoujo-re-engineered.git
-        tag: v1.4.7
+        tag: v1.4.8
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$

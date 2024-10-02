@@ -31,6 +31,21 @@
     <url type="faq">https://www.fhs.sh/about</url>
     <launchable type="desktop-id">sh.fhs.KatawaShoujoReEngineered.desktop</launchable>
     <releases>
+        <release version="1.4.8" date="2024-10-02">
+            <description>
+                <p>This release is dedicated to XPND.Dev, a founding member of our team, who is sadly no longer among us.</p>
+                <ul>
+                    <li>Added Simplified Chinese translation (thanks to @CloneWith!).</li>
+                    <li>Fixed "name only" characters having no quotes in dialogues.</li>
+                    <li>Hanako nude sprite won't show with adult content disabled.</li>
+                    <li>Upgraded Ren'Py to 8.3.2</li>
+                    <li>Improved Spanish and French translations.</li>
+                    <li>Fixed a typo in the Hanako route.</li>
+                    <li>Fixed broken link between "Slow Recovery" and "Exercise" scenes (thanks to @whizfox!)</li>
+                </ul>
+            </description>
+            <url>https://codeberg.org/fhs/katawa-shoujo-re-engineered/releases/tag/v1.4.8</url>
+        </release>
         <release version="1.4.7" date="2024-04-21">
             <description>
                 <ul>
