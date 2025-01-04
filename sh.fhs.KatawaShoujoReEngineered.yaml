@@ -102,7 +102,7 @@ modules:
       - install -Dm755 launcher.sh "${FLATPAK_DEST}/bin/ksre"
       - install -Dm644 -t "${FLATPAK_DEST}/share/appdata/" sh.fhs.KatawaShoujoReEngineered.appdata.xml
       - install -Dm644 -t "${FLATPAK_DEST}/share/applications/" sh.fhs.KatawaShoujoReEngineered.desktop
-      - install -Dm644 KSRE_Logo.svg "${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg"
+      - install -Dm644 ksre-legacy.svg "${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg"
       - sed -i 's/config.developer = "auto"/config.developer = False/g' /app/game/config.rpy
       - renpy /app/game compile
     sources:
@@ -121,4 +121,4 @@ modules:
       - type: file
         path: sh.fhs.KatawaShoujoReEngineered.desktop
       - type: file
-        path: KSRE_Logo.svg
+        path: ksre-legacy.svg
