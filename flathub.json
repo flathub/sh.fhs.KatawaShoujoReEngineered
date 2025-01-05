@@ -1,5 +1,4 @@
 {
     "end-of-life": "The new release of the game is now at sh.fhs.ksre App ID. The 1.x branch is no longer supported. Note that your current saves (if any) won't be compatible with the new version of the game. See https://ks.fhs.sh/viewtopic.php?p=250532#p250532 for detailed instructions on how to update.",
-    "end-of-life-rebase": "sh.fhs.ksre",
-    "skip-appstream-check": true
+    "end-of-life-rebase": "sh.fhs.ksre"
 }
