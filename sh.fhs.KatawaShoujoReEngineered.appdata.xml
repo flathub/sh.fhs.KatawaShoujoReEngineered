@@ -2,9 +2,9 @@
 <component type="desktop-application">
     <id>sh.fhs.KatawaShoujoReEngineered</id>
     <metadata_license>CC-BY-SA-3.0</metadata_license>
-    <name>Katawa Shoujo: Re-Engineered</name>
-    <summary>A modern version of classic bishoujo-style visual novel</summary>
-    <summary xml:lang="ru">Технический ремастер классической визуальной новеллы с открытым исходным кодом.</summary>
+    <name>Katawa Shoujo: Re-Engineered (Legacy)</name>
+    <summary>A modern version of classic bishoujo-style visual novel (version 1.x)</summary>
+    <summary xml:lang="ru">Технический ремастер классической визуальной новеллы с открытым исходным кодом (версия 1.х).</summary>
     <summary xml:lang="hu">Egy klasszikus vizuális regény korszerűsített verziója</summary>
     <description>
         <p>
@@ -63,6 +63,13 @@
     <url type="faq">https://www.fhs.sh/about</url>
     <launchable type="desktop-id">sh.fhs.KatawaShoujoReEngineered.desktop</launchable>
     <releases>
+        <release version="1.4.9-1" date="2025-01-04">
+            <description>
+                <ul>
+                    <li>Added marking of legacy status. New users must use 2.x release of the game instead.</li>
+                </ul>
+            </description>
+        </release>
         <release version="1.4.9" date="2024-11-20">
             <description>
                 <ul>
